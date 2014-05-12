@@ -222,6 +222,15 @@ hr {
   opacity: 0.6;
 }
 
+.user-mention {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.user-mention:hover {
+  text-decoration: underline;
+}
+
 /* Links
    a, a:hover, a:visited
 */
