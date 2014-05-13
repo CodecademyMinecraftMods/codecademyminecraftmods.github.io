@@ -91,6 +91,7 @@ header h2 {
 
 .side img:hover {
   border: 5px solid #2E2E2E;
+  display: inline;
   float: right;
   margin: 5px;
   max-height: 300px;
