@@ -68,14 +68,54 @@ header h2 {
   font-weight: 300;
 }
 
+.side {
+  border-bottom: 1px solid #6B6B6B;
+  border-left: 1px solid #6B6B6B;
+  border-top: 1px solid #6B6B6B;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 10px;
+  position: fixed;
+  right: 0px;
+  top: 300px;
+}
+
+.side img {
+  border: 5px solid black;
+  float: right;
+  margin: 5px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.side img:hover {
+  border: 5px solid #2E2E2E;
+  float: right;
+  margin: 5px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+footer {
+  border-radius: 10px;
+  border: dotted #33702F 2px;
+  color: #054E00;
+  float: middle;
+  font-family: monospace;
+  font-size: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 33%;
+}
+
 #downloads .btn {
   display: inline-block;
   margin: 0;
   text-align: center;
 }
 
-/* Main Content
-*/
+/* Main Content */
 
 #main_content {
   -webkit-font-smoothing: antialiased;
