@@ -68,7 +68,7 @@ header h2 {
   font-weight: 300;
 }
 
-.side {
+.sidebar {
   border-bottom: 1px solid #6B6B6B;
   border-left: 1px solid #6B6B6B;
   border-top: 1px solid #6B6B6B;
@@ -81,7 +81,7 @@ header h2 {
   top: 300px;
 }
 
-.side img {
+.sidebar img {
   border: 5px solid black;
   float: right;
   margin: 5px;
@@ -89,7 +89,7 @@ header h2 {
   max-width: 300px;
 }
 
-.side img:hover {
+.sidebar img:hover {
   border: 5px solid #2E2E2E;
   float: right;
   margin: 5px;
