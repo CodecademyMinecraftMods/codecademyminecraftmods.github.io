@@ -71,7 +71,9 @@ header h2 {
 .sidebar {
   border-bottom: 1px solid #6B6B6B;
   border-left: 1px solid #6B6B6B;
+  border-radius: 5px;
   border-top: 1px solid #6B6B6B;
+  margin-left: 5px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 5px;
@@ -83,19 +85,16 @@ header h2 {
 
 .sidebar img {
   border: 5px solid black;
-  float: right;
-  margin: 5px;
   max-height: 300px;
   max-width: 300px;
 }
 
-.sidebar img:hover {
-  border: 5px solid #2E2E2E;
-  float: right;
-  margin: 5px;
-  max-height: 300px;
-  max-width: 300px;
+.sidebar p {
+  border: 5px solid black;
+  text-align: center;
 }
+
+
 
 footer {
   border-radius: 10px;
