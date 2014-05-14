@@ -68,7 +68,7 @@ header h2 {
   font-weight: 300;
 }
 
-.sidebar {
+.sidebar_right {
   border-bottom: 1px solid #6B6B6B;
   border-left: 1px solid #6B6B6B;
   border-radius: 5px;
@@ -83,17 +83,54 @@ header h2 {
   top: 300px;
 }
 
-.sidebar img {
+.sidebar_right img {
   border: 5px solid black;
   max-height: 300px;
   max-width: 300px;
 }
 
-.sidebar p {
+.sidebar_right a img {
+  border: 5px solid black;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.sidebar_right p {
   border: 5px solid black;
   text-align: center;
 }
 
+.sidebar_left {
+  border-bottom: 1px solid #6B6B6B;
+  border-right: 1px solid #6B6B6B;
+  border-radius: 5px;
+  border-top: 1px solid #6B6B6B;
+  margin-right: 5px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  position: fixed;
+  left: 0px;
+  top: 300px;
+}
+
+.sidebar_left img {
+  border: 5px solid black;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.sidebar_left a img {
+  border: 5px solid black;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.sidebar_left p {
+  border: 5px solid black;
+  text-align: center;
+}
 
 
 footer {
