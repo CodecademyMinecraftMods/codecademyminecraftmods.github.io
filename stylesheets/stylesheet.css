@@ -68,6 +68,7 @@ header h2 {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
 .sidebar_right {
   border-bottom: 1px solid #6B6B6B;
   border-left: 1px solid #6B6B6B;
@@ -145,13 +146,16 @@ footer {
   width: 33%;
 }
 
+=======
+>>>>>>> parent of dccd7e7... Added Class Things for Sidebar
 #downloads .btn {
   display: inline-block;
   margin: 0;
   text-align: center;
 }
 
-/* Main Content */
+/* Main Content
+*/
 
 #main_content {
   -webkit-font-smoothing: antialiased;
