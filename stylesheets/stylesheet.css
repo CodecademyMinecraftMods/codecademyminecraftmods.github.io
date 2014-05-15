@@ -36,7 +36,7 @@ li {
 */
 
 header {
-  background: #00232F;
+  background: rgba(0, 0, 0, 0.1);
   border-bottom: 2px dashed #b5e853;
   margin: 0 0 40px 0;
   padding: 20px 0;
@@ -68,90 +68,14 @@ header h2 {
   font-weight: 300;
 }
 
-.sidebar_right {
-  border-bottom: 1px solid #6B6B6B;
-  border-left: 1px solid #6B6B6B;
-  border-radius: 5px;
-  border-top: 1px solid #6B6B6B;
-  margin-left: 5px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 5px;
-  padding-top: 10px;
-  position: fixed;
-  right: 0px;
-  top: 300px;
-}
-
-.sidebar_right img {
-  border: 5px solid black;
-  max-height: 300px;
-  max-width: 300px;
-}
-
-.sidebar_right a img {
-  border: 5px solid black;
-  max-height: 100px;
-  max-width: 100px;
-}
-
-.sidebar_right p {
-  border: 5px solid black;
-  text-align: center;
-}
-
-.sidebar_left {
-  border-bottom: 1px solid #6B6B6B;
-  border-right: 1px solid #6B6B6B;
-  border-radius: 5px;
-  border-top: 1px solid #6B6B6B;
-  margin-right: 5px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 5px;
-  padding-top: 10px;
-  position: fixed;
-  left: 0px;
-  top: 300px;
-}
-
-.sidebar_left img {
-  border: 5px solid black;
-  max-height: 300px;
-  max-width: 300px;
-}
-
-.sidebar_left a img {
-  border: 5px solid black;
-  max-height: 100px;
-  max-width: 100px;
-}
-
-.sidebar_left p {
-  border: 5px solid black;
-  text-align: center;
-}
-
-
-footer {
-  border-radius: 10px;
-  border: dotted #33702F 2px;
-  color: #054E00;
-  float: middle;
-  font-family: monospace;
-  font-size: 100%;
-  margin: 0 auto;
-  text-align: center;
-  width: 33%;
-}
-
 #downloads .btn {
   display: inline-block;
   margin: 0;
   text-align: center;
 }
 
-/* Main Content */
+/* Main Content
+*/
 
 #main_content {
   -webkit-font-smoothing: antialiased;
