@@ -1,10 +1,9 @@
 body {
   background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+  color: #CCCFC1;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font: 16px;
   line-height: 1.5;
-  margin: 0;
   padding: 0;
 }
 
@@ -36,11 +35,12 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 100, 0.1);
   border-bottom: 2px dashed #b5e853;
   margin: 0 0 40px 0;
   padding: 20px 0;
   width: 100%;
+  text-align: center;
 }
 
 header h1 {
@@ -94,6 +94,11 @@ h1, h2, h3, h4, h5, h6 {
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
 }
+
+#main_content {
+  text-align: center;
+}
+
 #main_content h0 {
   font-size: 36px;
 }
@@ -107,6 +112,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h3 {
+  border-radius: 0px;
+  border: 2px dashed #b5e853;
   font-size: 18px;
 }
 
